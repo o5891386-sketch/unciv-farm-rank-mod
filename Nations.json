@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Haru Empire",
+    "leaderName": "Bang Chod",
+    "adjective": ["Harian"],
+    "startBias": ["River", "Grassland"],
+    "preferredReligion": "Buddhism",
+    "color":[20, 20, 20],
+    "outerColor":[230, 0, 0],
+    "cities": [
+      "Haru Capital",
+      "Chod City",
+      "New Haru",
+      "Bang Ville",
+      "Harian Settle",
+      "Haru Outpost"
+    ],
+    "spyNames": [
+      "Haru Spy A",
+      "Haru Spy B",
+      "Haru Spy C"
+    ],
+    "uniques": [
+      "[+85]% [Food] surplus growth in all cities",
+      "[-15]% [Production] in all cities",
+      "[-5] [Gold] from every city",
+      "[-1] [Happiness] from every city",
+      "[-75]% Maintenance Costs For Units"
+    ]
+  },
+  {
+    "name": "The Empire",
+    "leaderName": "Emperor Thira",
+    "adjective": ["people of the empire"],
+    "startBias": ["River", "Grassland"],
+    "preferredReligion": "Buddhism",
+    "color":[255, 255, 255],
+    "outerColor":[255, 215, 0],
+    "cities": [
+      "The Imperial Palace",
+      "Luoyang",
+      "Chang'an",
+      "Xiliang Fortress",
+      "Emperor's Keep"
+    ],
+    "spyNames": [
+      "Kosin",
+      "Chai",
+      "Ananda",
+      "Suriya"
+    ],
+    "uniques": [
+      "[+300]% [Food] surplus growth in the [Capital]",
+      "[+20] [Food] in the [Capital]",
+      "[+50]% [Production] in the [Capital]",
+      "[+10] [Gold] per [Population] in the [Capital]",
+      "[-30]% [Food] surplus growth in non-capital cities",
+      "[-10] [Food] in non-capital cities",
+      "[-5] [Gold] per [Population] in non-capital cities",
+      "[-5] [Happiness] from every city"
+    ]
+  }
+]

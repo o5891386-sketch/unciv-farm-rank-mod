@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Swordmen Army",
+    "unitType": "Melee",
+    "movement": 2,
+    "strength": 8,
+    "cost": 300,
+    "promotions": ["Cover I"],
+    "requiredTech": "Rank I",
+    "uniques": [
+      "Requires [5] Supply",
+      "[+25]% Strength when fighting in [Friendly] territory",
+      "Can move after attacking",
+      "Double movement in [Forest]"
+    ]
+  },
+  {
+    "name": "Archery Army",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 5,
+    "rangedStrength": 10,
+    "range": 2,
+    "cost": 300,
+    "requiredTech": "Rank I",
+    "uniques": [
+      "Requires [5] Supply",
+      "Standard melee penalty",
+      "[+25]% Strength when fighting in [Friendly] territory",
+      "[+20]% Strength when fighting in [Rough terrain]",
+      "Double movement in [Forest]"
+    ]
+  },
+  {
+    "name": "Horse rider",
+    "unitType": "Mounted",
+    "movement": 5,
+    "strength": 8,
+    "cost": 500,
+    "requiredTech": "Rank II",
+    "uniques": [
+      "Requires [10] Supply",
+      "Can move after attacking",
+      "No defensive bonuses",
+      "Cannot capture cities",
+      "Withdraws before melee combat",
+      "[+85]% Strength vs [Archery] units",
+      "Free pillaging"
+    ]
+  },
+  {
+    "name": "Hing Lender Army",
+    "unitType": "Melee",
+    "uniqueTo": "Haru Empire",
+    "movement": 3,
+    "strength": 20,
+    "cost": 750,
+    "promotions": ["Blitz"],
+    "requiredTech": "Rank II",
+    "uniques": [
+      "Requires [10] Supply",
+      "Heals [+15] HP per turn",
+      "[-25]% Strength for enemy units in adjacent tiles",
+      "May attack twice per turn",
+      "[+25]% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Xiliang Hevy Cavalry Army",
+    "unitType": "Mounted",
+    "uniqueTo": "The Empire",
+    "movement": 5,
+    "strength": 30,
+    "cost": 1700,
+    "promotions": ["Blitz", "Shock I", "Shock II", "Shock III"],
+    "requiredTech": "Rank III",
+    "uniques": [
+      "Requires [20] Supply",
+      "Only [10] of this unit can be active at the same time",
+      "Can move after attacking",
+      "No defensive bonuses",
+      "Withdraws before melee combat",
+      "[+150]% Strength vs [Archery] units",
+      "Free pillaging"
+    ]
+  },
+  {
+    "name": "Long-Handled Sickle Militia",
+    "unitType": "Melee",
+    "uniqueTo": "Haru Empire",
+    "movement": 3,
+    "strength": 15,
+    "cost": 750,
+    "promotions": ["Formation II", "Shock II"],
+    "requiredTech": "Rank II",
+    "uniques": [
+      "Requires [10] Supply",
+      "Only [17] of this unit can be active at the same time",
+      "Heals [+15] HP per turn",
+      "[-25]% Strength for enemy units in adjacent tiles",
+      "May attack twice per turn",
+      "[+75]% Strength vs [Mounted] units"
+    ]
+  },
+  {
+    "name": "Xiliang Rider Army",
+    "unitType": "Mounted",
+    "uniqueTo": "The Empire",
+    "movement": 10,
+    "strength": 15,
+    "cost": 250,
+    "promotions": ["Blitz", "Shock I"],
+    "requiredTech": "Rank I",
+    "uniques": [
+      "Requires [15] Supply",
+      "Can move after attacking",
+      "No defensive bonuses",
+      "Withdraws before melee combat",
+      "[+50]% Strength vs [Archery] units",
+      "Free pillaging",
+      "Cannot capture cities"
+    ]
+  },
+  {
+    "name": "Lu Bu The Hero Units",
+    "unitType": "Mounted",
+    "uniqueTo": "The Empire",
+    "movement": 12,
+    "strength": 55,
+    "cost": 2500,
+    "requiredResource": "Horses",
+    "promotions": ["Blitz", "Shock I", "Shock II", "Shock III"],
+    "requiredTech": "Rank IV",
+    "uniques": [
+      "Requires [10] Supply",
+      "Only [1] of this unit can be active at the same time",
+      "Requires a [The Empire City Rank IV] in the city",
+      "{when population is [Greater than]}[24]",
+      "Can move after attacking",
+      "Withdraws before melee combat",
+      "[+500]% Strength vs [Archery] units",
+      "Free pillaging",
+      "Double plunder from capturing cities",
+      "Earns% of killed unit's [100] as [Gold]",
+      "Earns% of killed unit's [100] as [Culture]",
+      "Earns% of killed unit's [100] as [Science]",
+      "[-80]% Strength for enemy units in adjacent tiles",
+      "Ignores terrain cost",
+      "Takes [-75]% less damage from ranged attacks",
+      "Takes [-80]% less damage from city attacks"
+    ]
+  },{
+    "name": "Settler",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 106,
+    "uniques": [
+      "Found City",
+      "May upgrade to [Worker] through ruins",
+      "Never ok to automate",
+      "[-100]% Food while training"
+    ]
+  },{
+    "name": "Worker",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 70,
+    "uniques": [
+      "Can build [Land] improvements",
+      "May upgrade to [Worker] through ruins"
+    ]
+  }
+]

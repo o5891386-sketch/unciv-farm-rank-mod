@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Farm Rank I Im",
+    "type": "Land",
+    "turnsToBuild": 4,
+    "requiredTech": "Farm Rank I",
+    "uniques": [
+      "[+1] [Food]",
+      "Fresh water yields [+1] [Food] {with [Farm Rank I]}",
+      "Provides [+3] Supply"
+    ]
+  },
+  {
+    "name": "Farm Rank II Im",
+    "type": "Land",
+    "turnsToBuild": 6,
+    "requiredTech": "Farm Rank II",
+    "uniques": [
+      "Can be built on [Farm Rank I Im]",
+      "[+2] [Food]",
+      "Fresh water yields [+1] [Food] {with [Farm Rank II]}",
+      "Provides [+4] Supply"
+    ]
+  },
+  {
+    "name": "Farm Rank III Im",
+    "type": "Land",
+    "turnsToBuild": 8,
+    "requiredTech": "Farm Rank III",
+    "uniques": [
+      "Can be built on [Farm Rank II Im]",
+      "[+3] [Food]",
+      "Fresh water yields [+1] [Food] {with [Farm Rank III]}",
+      "Provides [+5] Supply"
+    ]
+  },
+]

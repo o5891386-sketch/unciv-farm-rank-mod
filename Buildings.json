@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Haru City Rank I",
+    "cost": 800,
+    "requiredTech": "Rank I",
+    "uniqueTo": "Haru Empire",
+    "uniques": [
+      "[-1000]% [Food] surplus growth {when population is [Greater than][5]}"
+    ]
+  },
+  {
+    "name": "Haru City Rank II",
+    "cost": 1500,
+    "requiredTech": "Rank II",
+    "uniqueTo": "Haru Empire",
+    "replaces": "Haru City Rank I",
+    "uniques": [
+      "Requires a [Haru City Rank I] in the city",
+      "[-1000]% [Food] surplus growth {when population is [Greater than][9]}"
+    ]
+  },
+  {
+    "name": "Haru City Rank III",
+    "cost": 2500,
+    "requiredTech": "Rank III",
+    "uniqueTo": "Haru Empire",
+    "replaces": "Haru City Rank II",
+    "uniques": [
+      "Requires a [Haru City Rank II] in the city",
+      "[-1000]% [Food] surplus growth {when population is [Greater than][19]}"
+    ]
+  },
+  {
+    "name": "Haru City Rank IV",
+    "cost": 2500,
+    "requiredTech": "Rank IV",
+    "uniqueTo": "Haru Empire",
+    "replaces": "Haru City Rank III",
+    "uniques": [
+      "Requires a [Haru City Rank III] in the city",
+      "[-1000]% [Food] surplus growth {when population is [Greater than][29]}"
+    ]
+  },{
+    "name": "The Empire City Rank I",
+    "cost": 800,
+    "requiredTech": "Rank I",
+    "uniqueTo": "The Empire",
+    "uniques": [
+      "[-1000]% [Food] surplus growth {when population is [Greater than][5]}"
+    ]
+  },
+  {
+    "name": "The Empire City Rank II",
+    "cost": 1500,
+    "requiredTech": "Rank II",
+    "uniqueTo": "The Empire",
+    "replaces": "The City Rank I",
+    "uniques": [
+      "Requires a [Haru City Rank I] in the city",
+      "[-1000]% [Food] surplus growth {when population is [Greater than][9]}",
+      "Counts as [The Empire City Rank I]"
+    ]
+  },
+  {
+    "name": "The Empire City Rank III",
+    "cost": 2500,
+    "requiredTech": "Rank III",
+    "uniqueTo": "The Empire",
+    "replaces": "The City Rank II",
+    "uniques": [
+      "Requires a [Haru City Rank II] in the city",
+      "[-1000]% [Food] surplus growth {when population is [Greater than][19]}",
+      "Counts as [The Empire City Rank II]",
+      "Counts as [The Empire City Rank I]"
+    ]
+  },
+  {
+    "name": "The Empire City Rank IV",
+    "cost": 2500,
+    "requiredTech": "Rank IV",
+    "uniqueTo": "The Empire",
+    "replaces": "The City Rank III",
+    "uniques": [
+      "Requires a [Haru City Rank III] in the city",
+      "[-1000]% [Food] surplus growth {when population is [Greater than][29]}",
+      "Counts as [The Empire City Rank III]",
+      "Counts as [The Empire City Rank II]",
+      "Counts as [The Empire City Rank I]"
+    ]
+  }
+]
